@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C864A21D373E8500D27F07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864A11D373E8500D27F07 /* main.m */; };
+		04C864A51D373E8500D27F07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864A41D373E8500D27F07 /* AppDelegate.m */; };
+		04C864A81D373E8500D27F07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864A71D373E8500D27F07 /* ViewController.m */; };
+		04C864AB1D373E8500D27F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C864A91D373E8500D27F07 /* Main.storyboard */; };
+		04C864AD1D373E8500D27F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C864AC1D373E8500D27F07 /* Assets.xcassets */; };
+		04C864B01D373E8500D27F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C864AE1D373E8500D27F07 /* LaunchScreen.storyboard */; };
+		04C864BB1D373E8500D27F07 /* LuckTestButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864BA1D373E8500D27F07 /* LuckTestButtonTests.m */; };
+		04C864C61D373E8500D27F07 /* LuckTestButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864C51D373E8500D27F07 /* LuckTestButtonUITests.m */; };
+		04C864D61D373F2700D27F07 /* LuckyTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C864D51D373F2700D27F07 /* LuckyTestButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C864B71D373E8500D27F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C864951D373E8500D27F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C8649C1D373E8500D27F07;
+			remoteInfo = LuckTestButton;
+		};
+		04C864C21D373E8500D27F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C864951D373E8500D27F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C8649C1D373E8500D27F07;
+			remoteInfo = LuckTestButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C8649D1D373E8500D27F07 /* LuckTestButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckTestButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C864A11D373E8500D27F07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C864A31D373E8500D27F07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C864A41D373E8500D27F07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C864A61D373E8500D27F07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C864A71D373E8500D27F07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04C864AA1D373E8500D27F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C864AC1D373E8500D27F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C864AF1D373E8500D27F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C864B11D373E8500D27F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C864B61D373E8500D27F07 /* LuckTestButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckTestButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C864BA1D373E8500D27F07 /* LuckTestButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckTestButtonTests.m; sourceTree = "<group>"; };
+		04C864BC1D373E8500D27F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C864C11D373E8500D27F07 /* LuckTestButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckTestButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C864C51D373E8500D27F07 /* LuckTestButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckTestButtonUITests.m; sourceTree = "<group>"; };
+		04C864C71D373E8500D27F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C864D41D373F2700D27F07 /* LuckyTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyTestButton.h; sourceTree = "<group>"; };
+		04C864D51D373F2700D27F07 /* LuckyTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyTestButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C8649A1D373E8500D27F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C864B31D373E8500D27F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C864BE1D373E8500D27F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C864941D373E8500D27F07 = {
+			isa = PBXGroup;
+			children = (
+				04C8649F1D373E8500D27F07 /* LuckTestButton */,
+				04C864B91D373E8500D27F07 /* LuckTestButtonTests */,
+				04C864C41D373E8500D27F07 /* LuckTestButtonUITests */,
+				04C8649E1D373E8500D27F07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C8649E1D373E8500D27F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C8649D1D373E8500D27F07 /* LuckTestButton.app */,
+				04C864B61D373E8500D27F07 /* LuckTestButtonTests.xctest */,
+				04C864C11D373E8500D27F07 /* LuckTestButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C8649F1D373E8500D27F07 /* LuckTestButton */ = {
+			isa = PBXGroup;
+			children = (
+				04C864D31D373F0B00D27F07 /* lucky */,
+				04C864A31D373E8500D27F07 /* AppDelegate.h */,
+				04C864A41D373E8500D27F07 /* AppDelegate.m */,
+				04C864A61D373E8500D27F07 /* ViewController.h */,
+				04C864A71D373E8500D27F07 /* ViewController.m */,
+				04C864A91D373E8500D27F07 /* Main.storyboard */,
+				04C864AC1D373E8500D27F07 /* Assets.xcassets */,
+				04C864AE1D373E8500D27F07 /* LaunchScreen.storyboard */,
+				04C864B11D373E8500D27F07 /* Info.plist */,
+				04C864A01D373E8500D27F07 /* Supporting Files */,
+			);
+			path = LuckTestButton;
+			sourceTree = "<group>";
+		};
+		04C864A01D373E8500D27F07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C864A11D373E8500D27F07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C864B91D373E8500D27F07 /* LuckTestButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C864BA1D373E8500D27F07 /* LuckTestButtonTests.m */,
+				04C864BC1D373E8500D27F07 /* Info.plist */,
+			);
+			path = LuckTestButtonTests;
+			sourceTree = "<group>";
+		};
+		04C864C41D373E8500D27F07 /* LuckTestButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C864C51D373E8500D27F07 /* LuckTestButtonUITests.m */,
+				04C864C71D373E8500D27F07 /* Info.plist */,
+			);
+			path = LuckTestButtonUITests;
+			sourceTree = "<group>";
+		};
+		04C864D31D373F0B00D27F07 /* lucky */ = {
+			isa = PBXGroup;
+			children = (
+				04C864D41D373F2700D27F07 /* LuckyTestButton.h */,
+				04C864D51D373F2700D27F07 /* LuckyTestButton.m */,
+			);
+			path = lucky;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C8649C1D373E8500D27F07 /* LuckTestButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C864CA1D373E8500D27F07 /* Build configuration list for PBXNativeTarget "LuckTestButton" */;
+			buildPhases = (
+				04C864991D373E8500D27F07 /* Sources */,
+				04C8649A1D373E8500D27F07 /* Frameworks */,
+				04C8649B1D373E8500D27F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckTestButton;
+			productName = LuckTestButton;
+			productReference = 04C8649D1D373E8500D27F07 /* LuckTestButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C864B51D373E8500D27F07 /* LuckTestButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C864CD1D373E8500D27F07 /* Build configuration list for PBXNativeTarget "LuckTestButtonTests" */;
+			buildPhases = (
+				04C864B21D373E8500D27F07 /* Sources */,
+				04C864B31D373E8500D27F07 /* Frameworks */,
+				04C864B41D373E8500D27F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C864B81D373E8500D27F07 /* PBXTargetDependency */,
+			);
+			name = LuckTestButtonTests;
+			productName = LuckTestButtonTests;
+			productReference = 04C864B61D373E8500D27F07 /* LuckTestButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C864C01D373E8500D27F07 /* LuckTestButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C864D01D373E8500D27F07 /* Build configuration list for PBXNativeTarget "LuckTestButtonUITests" */;
+			buildPhases = (
+				04C864BD1D373E8500D27F07 /* Sources */,
+				04C864BE1D373E8500D27F07 /* Frameworks */,
+				04C864BF1D373E8500D27F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C864C31D373E8500D27F07 /* PBXTargetDependency */,
+			);
+			name = LuckTestButtonUITests;
+			productName = LuckTestButtonUITests;
+			productReference = 04C864C11D373E8500D27F07 /* LuckTestButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C864951D373E8500D27F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shxl;
+				TargetAttributes = {
+					04C8649C1D373E8500D27F07 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04C864B51D373E8500D27F07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04C8649C1D373E8500D27F07;
+					};
+					04C864C01D373E8500D27F07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04C8649C1D373E8500D27F07;
+					};
+				};
+			};
+			buildConfigurationList = 04C864981D373E8500D27F07 /* Build configuration list for PBXProject "LuckTestButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C864941D373E8500D27F07;
+			productRefGroup = 04C8649E1D373E8500D27F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C8649C1D373E8500D27F07 /* LuckTestButton */,
+				04C864B51D373E8500D27F07 /* LuckTestButtonTests */,
+				04C864C01D373E8500D27F07 /* LuckTestButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C8649B1D373E8500D27F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C864B01D373E8500D27F07 /* LaunchScreen.storyboard in Resources */,
+				04C864AD1D373E8500D27F07 /* Assets.xcassets in Resources */,
+				04C864AB1D373E8500D27F07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C864B41D373E8500D27F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C864BF1D373E8500D27F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C864991D373E8500D27F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C864D61D373F2700D27F07 /* LuckyTestButton.m in Sources */,
+				04C864A81D373E8500D27F07 /* ViewController.m in Sources */,
+				04C864A51D373E8500D27F07 /* AppDelegate.m in Sources */,
+				04C864A21D373E8500D27F07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C864B21D373E8500D27F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C864BB1D373E8500D27F07 /* LuckTestButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C864BD1D373E8500D27F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C864C61D373E8500D27F07 /* LuckTestButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C864B81D373E8500D27F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C8649C1D373E8500D27F07 /* LuckTestButton */;
+			targetProxy = 04C864B71D373E8500D27F07 /* PBXContainerItemProxy */;
+		};
+		04C864C31D373E8500D27F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C8649C1D373E8500D27F07 /* LuckTestButton */;
+			targetProxy = 04C864C21D373E8500D27F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C864A91D373E8500D27F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C864AA1D373E8500D27F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C864AE1D373E8500D27F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C864AF1D373E8500D27F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C864C81D373E8500D27F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C864C91D373E8500D27F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C864CB1D373E8500D27F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckTestButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckTestButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C864CC1D373E8500D27F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckTestButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckTestButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04C864CE1D373E8500D27F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckTestButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckTestButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckTestButton.app/LuckTestButton";
+			};
+			name = Debug;
+		};
+		04C864CF1D373E8500D27F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuckTestButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckTestButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckTestButton.app/LuckTestButton";
+			};
+			name = Release;
+		};
+		04C864D11D373E8500D27F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckTestButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckTestButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckTestButton;
+			};
+			name = Debug;
+		};
+		04C864D21D373E8500D27F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuckTestButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shxl.LuckTestButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuckTestButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C864981D373E8500D27F07 /* Build configuration list for PBXProject "LuckTestButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C864C81D373E8500D27F07 /* Debug */,
+				04C864C91D373E8500D27F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C864CA1D373E8500D27F07 /* Build configuration list for PBXNativeTarget "LuckTestButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C864CB1D373E8500D27F07 /* Debug */,
+				04C864CC1D373E8500D27F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C864CD1D373E8500D27F07 /* Build configuration list for PBXNativeTarget "LuckTestButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C864CE1D373E8500D27F07 /* Debug */,
+				04C864CF1D373E8500D27F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C864D01D373E8500D27F07 /* Build configuration list for PBXNativeTarget "LuckTestButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C864D11D373E8500D27F07 /* Debug */,
+				04C864D21D373E8500D27F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C864951D373E8500D27F07 /* Project object */;
+}
